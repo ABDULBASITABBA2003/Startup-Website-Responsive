@@ -11,6 +11,7 @@ function App() {
       <Navbar />  {/* Navbar appears on all pages */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </Router>
   );

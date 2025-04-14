@@ -24,7 +24,7 @@ Reusable and customizable components to easily adjust content.
 - Dynamic Navigation: 
 Includes smooth page transitions powered by React Router
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://startup-website-responsive-g20w.onrender.com)
 
 ## Presentation link
 [Presentation link]()

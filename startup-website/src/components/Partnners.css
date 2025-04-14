@@ -1,0 +1,50 @@
+.parentDiv {
+    background-color: white;
+}
+h5 {
+    color: #74C69D;
+}
+.partnersparentDiv {
+    text-align: center;
+    color: black;
+    margin-bottom: -50px;
+}
+.partners {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.partnersbutton {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.spotifypic {
+    margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+    .partnerspara {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1024px) {
+    .partners {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+    }
+    .spotifypic {
+        margin-top: 40px;
+    }
+    .partnersbutton {
+        margin-bottom: 100px;
+    }
+}

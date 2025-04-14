@@ -1,0 +1,38 @@
+.footerparentDiv {
+    margin-top: 80px;
+    width: 380px;
+    height: 125;
+    top: 4270px;
+    
+background-color: #74C69D;
+}
+.socialicons {
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.footerlogo {
+    margin-bottom: 20px;
+    width: 300px;
+}
+@media (min-width: 768px) {
+    .footerparentDiv {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        width: 800px;
+    }
+    .footerlogo {
+        margin-top: 29px;
+    }
+}
+@media (min-width: 1024px) {
+    .footerparentDiv {
+        flex-direction: row;
+        gap: 600px;
+        width: 1600px;
+    }
+}

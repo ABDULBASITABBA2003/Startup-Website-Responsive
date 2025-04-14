@@ -1,0 +1,81 @@
+.contact {
+    text-align: center;
+}
+.contactuspara {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin-left: 15px;
+}
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border: 1px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 110px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+label {
+    margin-left: 20px;
+    padding-top: 10px;
+    
+
+}
+.contactusbutton {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    width: 275px;
+}
+.messageinput {
+    padding-bottom: 100px;
+}
+@media (min-width: 768px) {
+    .contactuspara {
+        margin-left: 230px;
+    }
+    input {
+        padding-left: 450px;
+    }
+    .contactusbutton {
+        width: 95%;
+        margin-left: 20px;
+        
+        
+    }
+
+}
+@media (min-width: 1024px) {
+    .both {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        justify-content: center;
+    }
+    input {
+        padding-left: 300px;
+    }
+    .contactuspara {
+        margin-left: 500px;
+    }
+    .contactusbutton {
+        width: 97%;   
+    }
+}

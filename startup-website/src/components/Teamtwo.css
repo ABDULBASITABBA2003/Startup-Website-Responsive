@@ -41,6 +41,11 @@ margin-left: -10px;
     .teamtwobutton {
         margin-left: 300px;
     }
+
+    .teamtwoparentDiv {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 @media (min-width: 1024px) {
     .teamtwoparentDiv {

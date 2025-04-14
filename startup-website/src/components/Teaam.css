@@ -38,6 +38,11 @@ p {
     .grouptwopic {
         margin-left: 49px;
     }
+
+    .teamparentDiv {
+        display: flex;
+        gap: 90px;
+    }
     
 
 }

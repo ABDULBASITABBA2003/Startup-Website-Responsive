@@ -1,0 +1,62 @@
+.grouptwopic {
+    width: 300px;
+    margin-top: 40px;
+}
+p {
+    text-align: center;
+    width: 290px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.75px;
+    letter-spacing: 0px;
+
+}
+.teamhfour {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.teampara {
+    font-size: 15px;
+}
+.teambutton {
+    text-align: left;
+    float: left;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.teambutton:hover {
+    background-color: white;
+    color: black;
+}
+@media (min-width: 768px) {
+    .grouptwopic {
+        margin-left: 49px;
+    }
+
+    .teamparentDiv {
+        display: flex;
+        gap: 90px;
+    }
+    
+
+}
+@media (min-width: 1024px) {
+    .teamparentDiv {
+        display: flex;
+        gap: 90px;
+    }
+    .grouptwopic {
+        margin-left: 270px;
+        width: 400px;
+        margin-top: -1px;
+    }
+    .picandbutton {
+        margin-top: 50px;
+    }
+}

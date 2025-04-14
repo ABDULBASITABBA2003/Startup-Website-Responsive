@@ -1,0 +1,25 @@
+/* Base Styles for Google Map iframe */
+.google-map-iframe {
+    width: 100%;
+    height: 300px; /* Default height for mobile/tablet screens */
+    border-radius: 8px;
+}
+
+/* For smaller screens (tablet and below), adjust the height */
+@media (max-width: 768px) {
+    .google-map-iframe {
+        height: 200px; /* Make it shorter on smaller screens */
+    }
+}
+
+/* For larger screens (desktop/laptop) */
+@media (min-width: 1024px) {
+    .google-map-iframe {
+        height: 400px; /* Increase the height for larger screens */
+        width: 400px;
+        margin-top: 30px;
+    }
+    .map-container {
+        margin-top: -50px;
+    }
+}

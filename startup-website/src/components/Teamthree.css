@@ -1,0 +1,52 @@
+.teamthreeparentDiv {
+    margin-top: 70px;
+}
+.teamthreehfour {
+    text-align: center;
+    margin-top: -40px;
+    color: #74C69D;
+}
+.teamthreehthree {
+    text-align: center;
+}
+.teamthreepara {
+    font-size: larger;
+}
+.teammembers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+    justify-content: center;
+}
+.teamthreebutton {
+    margin-left: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.teamthreebutton:hover {
+    background-color: white;
+    color: black;
+}
+@media (min-width: 768px) {
+    .teamthreepara {
+        margin-left: 230px;   
+ }
+ .teamthreebutton {
+    margin-left: 310px;
+ }
+}
+@media (min-width: 1024px) {
+    .teamthreepara {
+        margin-left: 480px;
+    }
+    .teammembers {
+        display: flex;
+        gap: 20px;
+    }
+    .teamthreebutton {
+        margin-left: 550px;
+    }
+}
